@@ -17,7 +17,7 @@ plt.show()
 # Step 3: Transform Audio Signal x[n] from Time Domain to Frequency Domain using DFT
 X = np.fft.fft(audio_data)
 
-# Step 4: Plot Magnitude Spectrum of X[k]
+d# Step 4: Plot Magnitude Spectrum of X[k]
 freq = np.fft.fftfreq(len(X), 1/sample_rate)  # Frequency axis
 magnitude_spectrum = np.abs(X)
 
